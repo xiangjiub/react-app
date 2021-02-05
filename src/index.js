@@ -6,16 +6,23 @@
  * @Description: In User Settings Edit
  * @FilePath: \react-app\src\index.js
  */
-import React from 'react';
+// import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Xiaojiejie from './Xiaojiejie'
+// import Xiaojiejie from './Xiaojiejie'
+// import Baobei from './test'
+import element from './CusComponent/fun'
+
 ReactDOM.render(
-  <React.StrictMode>
-    <Xiaojiejie />
-  </React.StrictMode>,
+  // <React.StrictMode>
+  //   {/* <Xiaojiejie /> */}
+  //   {/* <Baobei /> */}
+    
+  // </React.StrictMode>
+  element
+  ,
   document.getElementById('root')
 );
 

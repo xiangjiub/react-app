@@ -12,16 +12,15 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import Xiaojiejie from './Xiaojiejie'
-// import Baobei from './test'
-import element from './CusComponent/fun'
+import Baobei from './CusComponent/test'
+// import element from './CusComponent/fun'
 
 ReactDOM.render(
   // <React.StrictMode>
   //   {/* <Xiaojiejie /> */}
-  //   {/* <Baobei /> */}
+     <Baobei /> 
     
   // </React.StrictMode>
-  element
   ,
   document.getElementById('root')
 );

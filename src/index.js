@@ -17,8 +17,7 @@ import reportWebVitals from './reportWebVitals';
 // import Demo from './views/新的生命周期'
 import App from './App'
 ReactDOM.render(
-  <App/>
-  ,
+  <App/>,
   document.getElementById('root')
 );
 

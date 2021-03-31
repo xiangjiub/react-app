@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-02-02 09:26:26
- * @LastEditTime: 2021-02-02 17:54:43
+ * @LastEditTime: 2021-02-07 09:50:19
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \react-app\src\index.js
@@ -12,16 +12,12 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import Xiaojiejie from './Xiaojiejie'
-// import Baobei from './test'
-import element from './CusComponent/fun'
-
+// import Baobei from './CusComponent/test'
+// import element from './CusComponent/fun'
+// import Demo from './views/新的生命周期'
+import App from './App'
 ReactDOM.render(
-  // <React.StrictMode>
-  //   {/* <Xiaojiejie /> */}
-  //   {/* <Baobei /> */}
-    
-  // </React.StrictMode>
-  element
+  <App/>
   ,
   document.getElementById('root')
 );

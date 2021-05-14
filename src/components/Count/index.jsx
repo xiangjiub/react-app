@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import store from '../../redux/store'
+import {createIncrementAction} from '../../redux/count_action'
+// 引入action,专为用于创建action对象
 //纯react求和加
 export default class Count extends Component {
     state = {count:0};
@@ -13,7 +15,7 @@ export default class Count extends Component {
         const {value} = this.selectnumber
         // const {count} = this.state
         // this.setState({ count:  value*1 + count});
-        store.dispatch({type:"increment",data:value*1})
+        store.dispatch(createIncrementAction(value*1))
     }
     decrement = () => {
 
